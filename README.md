@@ -46,4 +46,16 @@ An interactive LED sequencer for the **NUCLEO-L476RG** development board
 🧪 **Bare-Metal Embedded C**  
 - No HAL (Hardware Abstraction Layer); relies on direct register access using **CMSIS**
 
-
+## Hardware Requirements
+- **STM32 NUCLEO-L476RG** development board  
+- **16 external LEDs**  
+  - 4 LEDs for **Color A**  
+  - 4 LEDs for **Color B**
+  - 4 LEDs for **Color C**
+  - 4 LEDs for **Color D**  
+- **16 current-limiting resistors** (220Ω–470Ω, one per LED)  
+- **2 external pushbuttons**  
+  - Connected to **PA4** (left) and **PA1** (right)  
+  - Internally pulled-up  
+- Breadboard and jumper wires  
+- USB cable for power and programming via ST-Link
