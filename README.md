@@ -38,6 +38,7 @@ An interactive LED sequencer for the **NUCLEO-L476RG** development board
 
 🕒 **Precise Timing and Control**  
 - **TIM2** Controls LED animation speed
+- **SysTick** used for millisecond timekeeping
 
 👆 **Interrupt-Based Input Handling**  
 - External interrupts configured on **PA1**  and **PA4** 
