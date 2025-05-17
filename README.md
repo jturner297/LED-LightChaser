@@ -59,3 +59,6 @@ An interactive LED sequencer for the **NUCLEO-L476RG** development board
   - Internally pulled-up  
 - Breadboard and jumper wires  
 - USB cable for power and programming via ST-Link
+
+## Block Diagram
+<img src="assets/LED_LightChaserBD.png" alt="Game Thumbnail" width="1000"/> 
